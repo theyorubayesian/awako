@@ -5,7 +5,7 @@
 ## Introduction
 This project trains an image classification model in Amazon SageMaker to distinguish the vehicle of delivery drivers. This information is used to assign delivery task. 
 
-The model is trained on 1000 examples and validated on a further 200 examples. No data augmentation was performed during this training run. This may investigated later to improve model performance.
+The model is trained on 1000 examples and validated on a further 200 examples. No data augmentation was performed during this training run. This may be investigated later to improve model performance.
 
 The model was deployed and used to compose a three-layer step function that serializes incoming image data, makes predictions on it and filters away inferences below a chosen confidence. Each layer in the step function uses a lambda function.
 
