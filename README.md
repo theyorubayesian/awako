@@ -1,6 +1,6 @@
 # Awakọ̀
 
-`Awakọ̀` means driver in Yorùbá. 
+`Awakọ̀` means driver in Yorùbá.
 
 ## Introduction
 This project trains an image classification model in Amazon SageMaker to distinguish the vehicle of delivery drivers. This information is used to assign delivery task. 
