@@ -12,7 +12,7 @@ The model was deployed and used to compose a three-layer step function that seri
 Model training and deployment code are in [workflow.ipynb](awako/workflow.ipynb) and the handlers for the lambda functions are in [lambda](awako/lambda).
 
 ## Images
-# Step Function Graph
+### Step Function Graph
 
 ![step_function_graph](images/stepfunctions_graph.png)
 ### Working Step Functions
@@ -20,3 +20,6 @@ Model training and deployment code are in [workflow.ipynb](awako/workflow.ipynb)
 ![step_function1](images/successful_step_function_execution.png)
 
 ![step_function2](images/successful_step_fn_execution.png)
+
+### Model Monitor: Model Confidence Visualization
+![confidence_plot](images/prediction_confidence.png)
